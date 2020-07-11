@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- appelle la librairie javascript Leaflet et le fichier CSS Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script type="text/javascript" src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script> 
+
+<!-- lien vers mon fichier CSS -->
+<link rel="stylesheet" href="style/style.css" />
+
+<!-- jQuery – indispensable pour utiliser les fichiers geojson -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+
+</head>
+<body onload="initialize()">
+<!-- DIV qui contient la carte -->
+<div id="mapid"></div>
+
+
+<!-- fichier javascript externe qui paramètre le contenu de la carte Leaflet  -->
+<script src="cafu.js"></script>
+</body>
+</html>
+

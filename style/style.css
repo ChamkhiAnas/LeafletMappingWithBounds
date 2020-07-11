@@ -1,0 +1,12 @@
+/* mise en forme du DIV */
+#mapid{
+    height : 100%;
+    width : 100%;
+    }
+    
+    /* mise en forme des popups de la carte Leaflet */
+    .leaflet-popup-tip,
+    .leaflet-popup-content-wrapper {
+    background : #7EBCB9;
+    color : #222327;
+    }
